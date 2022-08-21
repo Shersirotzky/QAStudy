@@ -1,0 +1,14 @@
+{
+  "name": "linea",
+  "version": "1.0.0",
+  "description": "teste do software linea align",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "sher dias",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
