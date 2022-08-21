@@ -22,7 +22,8 @@ class Perfil {
             .type('função de testes criada via Cypress')
         cy.get('#check-create-all').click()
         cy.get('.pl-lg-4 > .text-center > .btn').click()
-        cy.get('.alert').should('be.visible', 'Função criada com sucesso!')
+        cy.get('strong').should('be.visible', 'Função criada com sucesso!')
+
 
 
     }
