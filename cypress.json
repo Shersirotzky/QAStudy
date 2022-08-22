@@ -1,5 +1,4 @@
-{ 
-    "projectId": "prg2cc"
-   
-    
+{
+  "projectId": "prg2cc",
+  "baseUrl": "https://linea-align.homologacao.net.br/login"
 }

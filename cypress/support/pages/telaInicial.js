@@ -7,12 +7,6 @@ class Login {
 
     }
 
-    // logarIncorreto() {
-    //     cy.get('input[placeholder= "Email"]').type("adminn@linea.com")
-    //     cy.get('input[type="password"]').type("secret")
-    //     cy.get('button[type="submit"]').click()
-
-    // }
 
 
 

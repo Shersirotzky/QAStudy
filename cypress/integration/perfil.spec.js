@@ -5,20 +5,27 @@ import dashboard from "../support/pages/dashboard"
 
 describe('', () => {
     beforeEach('logar', () => {
-        cy.visit("https://linea-align.homologacao.net.br/login")
-        dashboard.logar1()
+        cy.visit("")
+        telaInicial.logar()
 
 
     })
 
     it('funcoes', () => {
+
         dashboard.acessarFuncoes()
         dashboard.adicionarFuncoes()
         dashboard.editarFuncao()
+        //dashboard.excluirFuncao()
 
 
 
-    }) 
+    })
+
+    it.only('colaboradores', () => {
+        dashboard.cadColaborador()
+
+    })
 
 
 

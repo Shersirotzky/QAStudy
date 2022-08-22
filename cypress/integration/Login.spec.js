@@ -27,7 +27,7 @@ describe("Login", () => {
 
 
     beforeEach("Dado que acessei a pagina de login", () => {
-        cy.visit("https://linea-align.homologacao.net.br/login")
+        cy.visit("")
         telaInicial.logar();
 
     })
@@ -35,10 +35,7 @@ describe("Login", () => {
 
 
 
-    //fazer login com usuario incorreto
-    // it.only('fazer login co muser incorreto', () => {
-    //     telaInicial.logarIncorreto();
-    // }) descomitar para rodar o teste!
+
 
 
 
