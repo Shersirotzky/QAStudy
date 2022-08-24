@@ -22,7 +22,7 @@ describe('', () => {
 
     })
 
-    it.only('colaboradores', () => {
+    it('colaboradores', () => {
         dashboard.cadColaborador()
 
     })

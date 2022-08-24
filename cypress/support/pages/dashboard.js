@@ -17,22 +17,14 @@ class Perfil {
         cy.get('.col-4 > .btn').click()
         cy.get('#input-name').click()
         cy.get('#input-name').click()
-<<<<<<< Updated upstream
-            .type('Função teste cy2')
-=======
-            .type('Função teste cy1')
->>>>>>> Stashed changes
+            .type('Função teste cyy')
         cy.get('#input-description').click()
             .type('função de testes criada via Cypress')
         cy.get('#check-create-all').click()
         cy.get('.pl-lg-4 > .text-center > .btn').click()
-<<<<<<< Updated upstream
-        
 
 
-=======
-        cy.get('.col-4 > .btn').click()
->>>>>>> Stashed changes
+
 
     }
 
@@ -63,10 +55,6 @@ class Perfil {
         cy.get('#input-name').click()
         cy.get('#select-role').click()
         cy.get('#check-create-all').click()
-
-
-
-
 
 
 
