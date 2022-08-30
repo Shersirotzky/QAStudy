@@ -16,13 +16,12 @@ describe('', () => {
         dashboard.acessarFuncoes()
         dashboard.adicionarFuncoes()
         dashboard.editarFuncao()
-        //dashboard.excluirFuncao()
 
 
 
     })
 
-    it('colaboradores', () => {
+    it.only('colaboradores', () => {
         dashboard.cadColaborador()
 
     })
